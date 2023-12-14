@@ -1,0 +1,23 @@
+.heroarea {
+  background-color: #141024;
+}
+
+
+.heroarea h1 {
+  color: #FFF;
+  font-size: 70px;
+  font-weight: 600;
+  margin-top: 344px;
+}
+
+.heroarea span {
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+img {
+  display: inline-block;
+  width: 515.525px;
+  height: 917.485px;
+}
