@@ -1,0 +1,41 @@
+.container-header {
+  max-width: 1920px;
+}
+
+.nav {
+  display: inline-block;
+}
+
+.container-header {
+  background-color: #141024;
+  border: 2px solid red;
+}
+
+.container-header label {
+  display: inline-block;
+  color: #fff;
+  padding-left: 100px;
+  padding-top: 30px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  margin-right: 470px;
+}
+
+.container-header ul {
+  display: inline-block;
+}
+
+.container-header ul li {
+  display: inline-block;
+  padding-right: 40px;
+}
+
+.container-header ul li:last-child {
+  margin-right: 443px;
+}
+
+.container-header a {
+  color: #fff;
+  text-decoration: none;
+}
