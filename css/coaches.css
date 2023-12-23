@@ -1,21 +1,31 @@
-.card {
+.coaches__title {
+    font-size: 50px;
+    line-height: 80px;
+}
+
+.coaches__card {
     position: relative;
     width: 350px;
     height: 700px;
     border-radius: 20px;
     transition: 0.8s;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    margin-top: 150px;
+    display: inline-block;
+    /* align-items: flex-start;
+    justify-content: center; */
+    margin-top: 60px;
 }
 
-.card:hover {
-    height: 800px;
-    background-color: rgba(230, 230, 230, 1)
+.coaches_card_margin {
+    margin-left: 65px;
+    margin-right: 65px;
 }
 
-.card .image {
+.coaches__card:hover {
+    height: 780px;
+    background-color: rgba(230, 230, 230, 1);
+}
+
+.coaches__card .coaches__image {
     position: absolute;
     width: 350px;
     height: 500px;
@@ -25,12 +35,12 @@
     transition: 0.8s;
 }
 
-.card:hover .image {
+.coaches__card:hover .coaches__image {
     top: -100px;
     scale: 0.8;
 }
 
-.card .image img {
+.coaches__card .coaches__image img {
     position: absolute;
     top: 0;
     left: 0;
@@ -39,7 +49,7 @@
     object-fit: cover;
 }
 
-.card .content {
+.coaches__card .coaches__content {
     width: 100%;
     height: 35px;
     position: absolute;
@@ -51,12 +61,19 @@
     word-wrap: break-word;
 }
 
-.card:hover .content {
+.coaches__info-name {
+    font-weight: 600;
+    display: block;
+}
+
+
+
+.coaches__card:hover .coaches__content {
     height: 400px;
     top: 375px;
 }
 
-.card .content h4 {
+.coaches__card .coaches__content h4 {
     font-size: 24px;
     color: rgba(20, 16, 36, 1);
 }
