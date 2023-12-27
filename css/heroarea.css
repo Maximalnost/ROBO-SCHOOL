@@ -2,22 +2,61 @@
   background-color: #141024;
 }
 
-
-.heroarea h1 {
-  color: #FFF;
+.heroarea .heroarea__heading {
+  color: #fff;
   font-size: 70px;
   font-weight: 600;
+}
+
+.heroarea .heroarea__text {
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 75px;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.heroarea__promo-right {
+  display: inline-block;
+  position: relative;
+  /* border: 2px solid red; */
+  width: 700px;
+  height: 911px;
+  margin-top: 162.52px;
+}
+
+.heroarea__promo-img1,
+.heroarea__promo-img2 {
+  /* display: inline-block; */
+  position: absolute;
+}
+
+.button {
+  text-decoration: none;
+  padding: 25px 54px;
+  background-color: #d52027;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.heroarea__promo-left {
+  max-width: 516px;
+  display: inline-block;
+  vertical-align: top;
   margin-top: 344px;
 }
 
-.heroarea span {
-  color: #fff;
-  margin-top: 20px;
-  margin-bottom: 50px;
-}
-
-img {
-  display: inline-block;
+.heroarea__promo-img1 {
+  /* position: absolute; */
   width: 515.525px;
   height: 917.485px;
+  z-index: 1;
+  right: 50px;
+}
+
+.heroarea__promo-img2 {
+  width: 783px;
+  height: 783px;
+  top: 100px;
+  /* right: 70px; */
 }
