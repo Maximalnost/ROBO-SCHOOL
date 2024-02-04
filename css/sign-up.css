@@ -1,4 +1,48 @@
 .sign-up {
-    background-color: rgba(213, 32, 39, 1);
-    background-image: url();
+  background: rgba(213, 32, 39, 1);
+  background-position: 100px;
+}
+
+.sign-up__promo {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.sign-up__promotion {
+  color: rgba(255, 255, 255, 1);
+  font-size: 36px;
+  margin-top: 106px;
+  margin-bottom: 10px;
+  width: 476px;
+  height: 94px;
+  line-height: 46.8px;
+}
+
+.sign-up__promotion-text {
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+}
+
+.sign-up__input-forms {
+  display: inline-block;
+  width: 500px;
+}
+
+input {
+  padding: 10px 50px;
+  width: 500px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-left: 144px;
+  outline: none;
+}
+
+input:first-child {
+  margin-top: 87px;
+}
+
+input:last-child {
+  background-color: rgba(20, 16, 36, 1);
+  color: rgba(255, 255, 255, 1);
+  margin-bottom: 87px;
 }
