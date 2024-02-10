@@ -1,11 +1,31 @@
-body, * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Jost', sans-serif;
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.heading {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  line-height: 48px;
+  padding-left: 100px;
+}
+
+.phone {
+  color: rgba(255, 255, 255, 1);
+  font-family: Jost;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 48px;
+  vertical-align: middle;
+  margin-right: 100px;
 }
