@@ -42,10 +42,14 @@ nav {
 }
 
 .nav__item:last-child {
-  margin-right: 443px;
+  margin-right: 343px;
 }
 
 .nav__link {
   color: rgba(255, 255, 255, 1);
   line-height: 32px;
+}
+
+.nav__link:hover {
+  opacity: 0.5;
 }

@@ -10,3 +10,23 @@ body, * {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.logo-link {
+  color: rgba(255, 255, 255, 1);
+}
+
+.heading {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  line-height: 48px;
+}
+
+.phone {
+  color: rgba(255, 255, 255, 1);
+  font-family: Jost;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 48px;
+}
