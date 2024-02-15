@@ -1,6 +1,5 @@
 .sign-up {
   background: rgba(213, 32, 39, 1);
-  background-position: 100px;
 }
 
 .sign-up__promo {
@@ -44,5 +43,35 @@ input:first-child {
 input:last-child {
   background-color: rgba(20, 16, 36, 1);
   color: rgba(255, 255, 255, 1);
-  margin-bottom: 87px;
+  margin-bottom: 85px;
+  cursor: pointer;
+  z-index: 2;
+  position: relative;
+}
+
+.sign-up__ticker-wrapper {
+  overflow: hidden;
+  width: 1200px;
+  position: absolute;
+  top: 220px;
+  z-index: 1;
+}
+
+.sign-up__ticker-box {
+  animation: running-text 10s linear infinite;
+}
+
+.sign-up__ticker-text {
+  white-space: nowrap;
+  font-size: 130px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+@keyframes running-text {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
