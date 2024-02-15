@@ -1,14 +1,15 @@
-body, * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Jost', sans-serif;
-    text-decoration: none;
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+  text-decoration: none;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .logo-link {
@@ -25,7 +26,6 @@ body, * {
 
 .phone {
   color: rgba(255, 255, 255, 1);
-  font-family: Jost;
   font-size: 30px;
   font-weight: 600;
   line-height: 48px;
