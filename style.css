@@ -1,3 +1,10 @@
+:root {
+  --color-white: rgba(255, 255, 255, 1);
+  --color-dark: rgba(20, 16, 36, 1);
+  --color-dark-muted: rgba(20, 16, 36, 0.7);
+  --color-red: rgba(213, 32, 39, 1);
+}
+
 body,
 * {
   margin: 0;
@@ -12,21 +19,70 @@ body,
   margin: 0 auto;
 }
 
-.logo-link {
-  color: rgba(255, 255, 255, 1);
+.section-padding {
+  padding: 120px 0;
 }
 
-.heading {
+.high-lettering {
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  color: var(--color-white);
+}
+
+.lettering {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+}
+
+.lettering_dark-muted {
+  color: var(--color-dark-muted);
+}
+
+.lettering_white {
+  color: var(--color-white);
+}
+
+.logo {
   display: inline-block;
   font-size: 30px;
   font-weight: 700;
-  color: rgba(255, 255, 255, 1);
   line-height: 48px;
+  color: var(--color-white);
+  
+}
+
+.logo-link {
+  color: var(--color-white);
 }
 
 .phone {
-  color: rgba(255, 255, 255, 1);
   font-size: 30px;
   font-weight: 600;
   line-height: 48px;
+  color: var(--color-white);
+}
+
+.heading {
+  font-size: 50px;
+  line-height: 80px;
+  font-weight: 600;
+  color: var(--color-dark);
+}
+
+.small-heading {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 38.4px;
+  color: var(--color-dark);
+}
+
+.button {
+  padding: 25px 54px;
+  border-radius: 5px;
+  background-color: var(--color-red);
+  color: var(--color-white);
 }
