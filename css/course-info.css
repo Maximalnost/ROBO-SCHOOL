@@ -17,25 +17,26 @@
 }
 
 .course-info__tooltip {
-  position: relative;
   display: inline-block;
+  position: relative;
   cursor: pointer;
 }
 
 .course-info__tooltip::after {
   content: "При наличии свободных мест";
   position: absolute;
-  background-color: var(--color-white);
-  color: var(--color-dark);
+  font-size: 16px;
   padding: 5px 15px;
-  border-radius: 2px;
   top: -150%;
   left: 125px;
-  transform: translateX(-50%);
+  border-radius: 2px;
   opacity: 0;
+  transform: translateX(-50%);
   transition: opacity 0.3s;
   white-space: nowrap;
-  font-size: 16px;
+  
+  color: var(--color-dark);
+  background-color: var(--color-white);
   box-shadow: 0px 2px 5px 1px gray;
 }
 

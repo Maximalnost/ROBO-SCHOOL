@@ -11,9 +11,9 @@ nav {
 }
 
 .header__logo {
-  padding-left: 100px;
   padding-top: 30px;
   margin-right: 470px;
+  padding-left: 100px;
 }
 
 .nav__menu {
@@ -30,10 +30,10 @@ nav {
 }
 
 .nav__link {
-  color: rgba(255, 255, 255, 1);
-  font-weight: 400;
   font-size: 20px;
+  font-weight: 400;
   line-height: 32px;
+  color: var(--color-white);
 }
 
 .nav__link:hover {

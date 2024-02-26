@@ -56,10 +56,6 @@ body,
   font-weight: 700;
   line-height: 48px;
   color: var(--color-white);
-}
-
-.logo-link {
-  color: var(--color-white);
   cursor: pointer;
 }
 
@@ -89,5 +85,4 @@ body,
   border-radius: 5px;
   background-color: var(--color-red);
   color: var(--color-white);
-  
 }

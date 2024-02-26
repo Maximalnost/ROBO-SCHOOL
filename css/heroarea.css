@@ -3,9 +3,9 @@
 }
 
 .heroarea__heading {
-  color: var(--color-white);
   font-size: 70px;
   font-weight: 600;
+  color: var(--color-white);
 }
 
 .heroarea__text {
@@ -27,17 +27,17 @@
 }
 
 .heroarea__promo-left {
-  max-width: 516px;
   display: inline-block;
-  vertical-align: top;
+  max-width: 516px;
   margin-top: 344px;
+  vertical-align: top;
 }
 
 .heroarea__promo-img1 {
   width: 515.525px;
   height: 917.485px;
-  z-index: 1;
   right: 50px;
+  z-index: 1;
 }
 
 .heroarea__promo-img2 {
