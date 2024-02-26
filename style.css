@@ -46,24 +46,28 @@ body,
   color: var(--color-white);
 }
 
+.lettering_dark {
+  color: var(--color-dark);
+}
+
 .logo {
   display: inline-block;
   font-size: 30px;
   font-weight: 700;
   line-height: 48px;
   color: var(--color-white);
-  
 }
 
 .logo-link {
   color: var(--color-white);
+  cursor: pointer;
 }
 
-.phone {
+.subhead {
   font-size: 30px;
   font-weight: 600;
   line-height: 48px;
-  color: var(--color-white);
+  /* color: var(--color-white); */
 }
 
 .heading {

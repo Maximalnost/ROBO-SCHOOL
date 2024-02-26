@@ -19,7 +19,7 @@
 
 .coaches__card:hover {
   height: 850px;
-  background-color: rgba(230, 230, 230, 1);
+  background-color: rgba(230, 230, 230, 0.7);
 }
 
 .coaches__image-wrapper {
@@ -68,4 +68,3 @@
   height: 500px;
   top: 375px;
 }
-
