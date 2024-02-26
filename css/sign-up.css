@@ -1,0 +1,80 @@
+.sign-up {
+  background: var(--color-red);
+  position: relative;
+}
+
+.sign-up__promo {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.sign-up__promotion {
+  font-size: 36px;
+  line-height: 46.8px;
+  width: 476px;
+  height: 94px;
+  margin-top: 106px;
+  margin-bottom: 10px;
+  color: var(--color-white);
+}
+
+.high-lettering_lh_26px {
+  line-height: 26px;
+}
+
+.sign-up__input-forms {
+  display: inline-block;
+  width: 500px;
+}
+
+.sign-up__field {
+  font-size: 18px;
+  width: 500px;
+  height: 64px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  margin-left: 144px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.sign-up__field:first-child {
+  margin-top: 87px;
+}
+
+.sign-up__field_submit {
+  position: relative;
+  margin-bottom: 85px;
+  cursor: pointer;
+  z-index: 2;
+  background-color: var(--color-dark);
+  color: var(--color-white);
+}
+
+.sign-up__ticker-wrapper {
+  position: absolute;
+  z-index: 1;
+  width: 1200px;
+  top: 300px;
+  overflow: hidden;
+}
+
+.sign-up__ticker-box {
+  animation: running-text 10s linear infinite;
+}
+
+.sign-up__ticker-text {
+  font-size: 130px;
+  line-height: ;
+  white-space: nowrap;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+@keyframes running-text {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
