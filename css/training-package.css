@@ -6,10 +6,10 @@
   display: inline-block;
   width: 360px;
   height: 460px;
-  border-radius: 20px;
   margin-top: 80px;
   margin-right: 40px;
   border: 1px solid rgba(20, 16, 36, 0.2);
+  border-radius: 20px;
   transition: 0.8s;
 }
 
@@ -26,10 +26,10 @@
 
 .training-package__sum {
   display: block;
-  text-align: center;
   font-size: 50px;
   font-weight: 600;
   line-height: 80px;
+  text-align: center;
   /* color: var(--color-dark); */
 }
 
@@ -54,9 +54,9 @@
 }
 
 .training-package__card:hover {
-  background-color: var(--color-dark);
-  color: var(--color-white);
   scale: 1.1;
+  color: var(--color-white);
+  background-color: var(--color-dark);
 }
 
 /* .training-package__card:hover .training-package__course-name {

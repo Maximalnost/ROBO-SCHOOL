@@ -1,5 +1,5 @@
 header {
-  background-color: #141024;
+  background-color: var(--color-dark);
 }
 
 .container__header {

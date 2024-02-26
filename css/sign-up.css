@@ -1,6 +1,6 @@
 .sign-up {
-  background: var(--color-red);
   position: relative;
+  background: var(--color-red);
 }
 
 .sign-up__promo {
@@ -31,9 +31,9 @@
   font-size: 18px;
   width: 500px;
   height: 64px;
-  padding: 10px 20px;
   margin-bottom: 10px;
   margin-left: 144px;
+  padding: 10px 20px;
   border-radius: 5px;
   outline: none;
 }
@@ -45,17 +45,17 @@
 .sign-up__field_submit {
   position: relative;
   margin-bottom: 85px;
-  cursor: pointer;
   z-index: 2;
-  background-color: var(--color-dark);
+  cursor: pointer;
   color: var(--color-white);
+  background-color: var(--color-dark);
 }
 
 .sign-up__ticker-wrapper {
   position: absolute;
-  z-index: 1;
   width: 1200px;
   top: 300px;
+  z-index: 1;
   overflow: hidden;
 }
 

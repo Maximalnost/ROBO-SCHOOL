@@ -1,8 +1,8 @@
 .main-info__text-info {
   font-size: 30px;
-  color: var(--color-dark);
-  width: 891px;
   line-height: 48px;
+  width: 891px;
+  color: var(--color-dark);
 }
 
 .main-info__stats {
@@ -15,9 +15,9 @@
 }
 
 .main-info__amount {
-  color: var(--color-red);
   font-size: 70px;
   font-weight: 600;
+  color: var(--color-red);
 }
 
 .main-info__subjects {
